@@ -2,7 +2,7 @@
 
 [![Github Actions Status](https://github.com/datalayer-examples/jupyterlab-celltoolbar-example/workflows/Build/badge.svg)](https://github.com/datalayer-examples/jupyterlab-celltoolbar-example/actions/workflows/build.yml)
 
-An extension for 🪐 JupyterLab 3.6 that adds a custom one and removes a cell toolbar entry.
+An extension for 🪐 JupyterLab 3.6 that adds a custom entry to the cell toolbar and removes the 
 
 ![Cell Toolbar](cell-toolbar.png)
 

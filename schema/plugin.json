@@ -1,0 +1,30 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "JupyterLab Cell Toolbar Example",
+  "description": "JupyterLab Cell Toolbar Example settings.",
+  "type": "object",
+  "properties": {
+    "fake": {
+      "type": "string",
+      "title": "Fake property",
+      "description": "A fake property",
+      "default": "This is Fake"
+    }
+  },
+  "additionalProperties": false,
+  "jupyter.lab.toolbars": {
+    "Cell": [
+      {
+        "name": "restart-run-all",
+        "command": "notebook:restart-run-all",
+        "icon": "ui-components:react",
+        "rank": 10
+      },
+      {
+        "name": "duplicate-cell",
+        "command": "notebook:duplicate-cell",
+        "disabled": true
+      }
+    ]
+  }
+}
